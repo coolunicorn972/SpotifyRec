@@ -12,7 +12,7 @@ const LoginScreen = ({ navigation }) => {
       <Text style={styles.title}>Login</Text>
       <TextInput
         style={styles.input}
-        placeholder="Username"
+        placeholder="Username!"
         onChangeText={(text) => setUsername(text)}
       />
       <TextInput
